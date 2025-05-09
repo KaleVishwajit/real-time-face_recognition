@@ -48,16 +48,6 @@ This is a real-time face recognition system using OpenCV, FaceNet, and SVM. It d
 
 ---
 
-## 🐳 Run with Docker
-
-```bash
-# Build the Docker image
-docker build -t face-recognition-app .
-
-# Run the app (Linux: ensure webcam is accessible)
-docker run --rm -it --device=/dev/video0 face-recognition-app
-```
-
 > ⚠️ For Windows/macOS: use a virtual camera or adjust Docker settings for webcam access.
 
 ---
